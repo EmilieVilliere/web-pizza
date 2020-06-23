@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lien d'importation librairie Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <!-- lien symbolique vers ma feuille de style -->
+    <link href="./assets/styles/styles.css" rel="stylesheet" type="text/css">
+  
+    <title>Web Image</title>
+</head>
+<body>
+    <header>
+        <!-- NavBar Bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand text-dark" href="#">
+                    <img src="./assets/images/logo.png" alt="logo-web-pizza">
+                </a>
+
+                <!-- Toggle Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- NavBar Navigation -->
+                <class class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white items" href="#">PIZZAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white items" href="#">SALADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white items" href="#">DESSERTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white items" href="#">BOISSONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white items" href="#">MENUS</a>
+                        </li>
+                    </ul>
+                
+                    <!-- Account and Basket -->
+                    <div class="account form-inline my-2 my-lg-0">
+                        <a class="nav-link text-white items" href="#">MON COMPTE</a>
+                        <button class="btn btn-success my-2 my-sm-0 text-white" type="submit">PANIER 0 </button>
+                    </div>
+                </class>
+            </div>
+        </nav>
+        <!-- End NavBar -->
+    </header>
+
+    <div class="main-header">
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Slider -->
+            <div class="carousel-inner">
+                <div class="carousel-item active crsl-img" data-illustration="slide1.jpg" style="background-image: url('./assets/images/slide1.jpg');">
+                    <!-- <img class="carousel d-block w-100" src="./assets/images/slide1.jpg" alt="slide1"> -->
+                </div>
+                <div class="carousel-item crsl-img" data-illustration="slide1.jpg" style="background-image: url('./assets/images/slide2.jpg');">
+                    <!-- <img class="carousel d-block w-100" src="./assets/images/slide2.jpg" alt="slide2"> -->
+                </div>
+                <div class="carousel-item crsl-img" data-illustration="slide1.jpg" style="background-image: url('./assets/images/slide3.jpg');">
+                    <!-- <img class="carousel d-block w-100" src="./assets/images/slide3.jpg" alt="slide3"> -->
+                </div>
+                <div class="carousel-item crsl-img" data-illustration="slide1.jpg" style="background-image: url('./assets/images/slide4.png');">
+                    <!-- <img class="carousel d-block w-100" src="./assets/images/slide4.png" alt="slide4"> -->
+                </div>
+            </div>
+
+            <!-- Button Controls -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>   
+    </div>
+    <!-- End Carousel -->
+
+    <div class="main-content mb-5">
+        <div class="container mt-5">
+
+            <!-- Card Gallery -->
+            <div class="row">   
+
+                <div class="col-md-6">
+                    <figure>
+                        <img id="tile-1" class="img-fluid" src="./assets/images/tile-1.jpg" alt="tile-1"/>
+                    </figure>
+                </div>                  
+            
+                <div class="col-md-6">
+                    <div class="row">
+                        <figure class="col-md-6">
+                            <img id="tile-2" class="img-fluid" src="./assets/images/tile-2.jpg" alt="tile-2"/>
+                            <figcaption class="title-2 text-white">SALADES</figcaption>
+                        </figure>
+                
+                        <figure class="col-md-6">
+                            <img id="tile-3" class="img-fluid" src="./assets/images/tile-3.jpg" alt="tile-3"/>
+                            <figcaption class="title-3 text-white">DESSERTS</figcaption>
+                        </figure>
+                
+                        <figure class="col-md-12">
+                            <img id="tile-4" class="img-fluid" src="./assets/images/tile-4.jpg" alt="tile-4"/>
+                            <figcaption class="title-4 text-white">CAPPUCINO</figcaption>
+                            <figcaption class="title-5 text-white">& ESPRESSO</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!-- End Card -->
+
+        </div>
+    </div>
+    <!-- End Main Content -->  
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3 text-white">Copyright © 2018 - 2020 Web Pizza</div>
+    </footer>
+    
+    <!-- Liens d'importation Javascript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>

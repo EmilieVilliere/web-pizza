@@ -1,0 +1,111 @@
+.navbar {
+  z-index: 10;
+  width: 100%;
+  height: 100px;
+  background-color: #c00a27;
+}
+
+.items {
+  opacity: 60%;
+}
+
+.items:hover {
+  opacity: 100%;
+}
+
+.crsl-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 2100px;
+  height: 800px;
+}
+
+.carousel-indicators > li {
+  background-color: #c00a27;
+}
+
+.carousel-inner {
+  width:  2100px;
+  height: 600px
+}
+
+figure > img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: auto;
+  height: auto;
+}
+
+figure > img:hover {
+  opacity: 60%;
+  transition: 0.1s;
+}
+
+figcaption {
+  opacity: 90%;
+  
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+figcaption.title-2 {
+  font-weight: 600;
+  font-size: 2rem;
+
+  top: 35%;
+  left: 27%;
+}
+
+figcaption.title-3 {
+  font-weight: 600;
+  font-size: 2rem;
+
+  top: 35%;
+  left: 23%;
+}
+
+figcaption.title-4 {
+  font-weight: 600;
+  font-size: 2.5rem;
+
+  top: 20%;
+  left: 30%;
+}
+
+figcaption.title-5 {
+  font-weight: 600;
+  font-size: 2.5rem;
+
+  top: 40%;
+  left: 30%;
+}
+
+#tile-3 {
+  width: 240px;
+  height: auto;
+}
+
+#tile-4 {
+  width: 530px;
+  height: auto;
+}
+
+.main-content {
+  height: auto;
+}
+
+button[type=submit] {
+  border-radius: 50px 50px 50px 50px;
+  border-style: none;
+  background-color: #8ca93e;
+}
+
+  
+footer {
+  background-color: rgb(46, 46, 46);
+}
