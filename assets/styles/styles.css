@@ -7,6 +7,7 @@
 
 .items {
   opacity: 60%;
+  text-transform: uppercase;
 }
 
 .items:hover {
@@ -47,7 +48,7 @@ figure > img:hover {
 
 figcaption {
   opacity: 90%;
-  
+  text-transform: uppercase;
   position: absolute;
   top: 30%;
   left: 25%;
@@ -103,6 +104,7 @@ button[type=submit] {
   border-radius: 50px 50px 50px 50px;
   border-style: none;
   background-color: #8ca93e;
+  text-transform: uppercase;
 }
 
   
